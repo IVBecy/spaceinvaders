@@ -1,5 +1,7 @@
 # Space Invaders (Python Implementation)
 
+![NERDS--PROGRAMMING](https://ivbecy.github.io/space_invaders.png)
+
 **NOTE:** On both, the PY and the exe file, keep the pictures in the same folder as the master file itself. (Otherwise it won't run)
 
 **Description**
