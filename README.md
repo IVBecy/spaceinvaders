@@ -10,4 +10,5 @@
 - The enemies are shooting randomly
 
 **If you do not have Python, just use the exe version**
+
 *Find the exe version, in the "exe" folder*
