@@ -340,7 +340,7 @@ while True:
     
     # updating the screen 
     wn.update()
-    
+
 
     #Clearing the "GAME OVER" or the "Wave {} survived" sign
     w.clear()
@@ -362,6 +362,7 @@ while True:
         reset()
         score = 0
         pen.clear()
+        w.color("red")
         pen.write("Score: {} High score: {} ".format(score, high_score),
                   align="center", font=("Courier", 25, "bold"))
         w.goto(-220, 0)
@@ -396,6 +397,7 @@ while True:
         if enemy_bullet.distance(player) < 20:
             reset()
             w.goto(-220, 0)
+            w.color("red")
             w.write("GAME OVER", font=("Courier", 60, "bold"))
             score = 0
             enemies_left = 14
@@ -418,6 +420,7 @@ while True:
             enemies_left = 14
             wave = 1
             pen.clear()
+            w.color("red")
             pen.write("Score: {} High score: {} ".format(score, high_score),
                       align="center", font=("Courier", 25, "bold"))
             w.goto(-220, 0)
@@ -464,6 +467,7 @@ while True:
         if enemies_left == 0:
             enemies_left = 14
             w.goto(-235, 0)
+            w.color("yellow")
             w.write("Wave {} survived".format(wave), font=("Courier", 40, "bold"))
             pen.clear()
             pen.write("Score: {} High score: {} ".format(score, high_score),
