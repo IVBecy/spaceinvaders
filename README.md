@@ -1,6 +1,6 @@
 # Space Invaders (Python Implementation)
 
-![Space Invaders](https://ivbecy.github.io/Pictures/space_invaders.png)
+![Space Invaders](https://ivbecy.github.io/images/space_invaders.png)
 
 **NOTE:** On both, the PY and the exe file, keep the pictures in the same folder as the master file itself. (Otherwise it won't run)
 
@@ -14,3 +14,4 @@
 **If you do not have Python, just use the exe version**
 
 *Find the exe version, in the "exe" folder*
+
